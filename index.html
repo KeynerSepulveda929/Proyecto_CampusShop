@@ -3,61 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CampusShop - Home</title>
+  <title>CampusShop - Inicio</title>
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">CampusShop</div>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="catalogo.html">Catálogo</a></li>
-        <li><a href="carrito.html">Carrito</a></li>
-        <li><a href="perfil.html">Perfil</a></li>
-      </ul>
-    </nav>
+
+
+  <header class="header">
+    <button class="icon-btn">
+      <img src="img/icon-menu.svg" alt="Menú">
+    </button>
+
+    <h1 class="logo">CampusShop</h1>
+
+    <button class="icon-btn cart-btn">
+      <img src="img/icon-cart.svg" alt="Carrito">
+      <span class="badge">3</span>
+    </button>
   </header>
+
   <main>
 
-    <section class="busqueda">
-      <input type="search" placeholder="Buscar productos...">
+
+    <section class="search-section">
+      <input type="search" placeholder="Buscar productos, marcas…">
     </section>
+
 
     <section class="categorias">
-      <h2>Categorías</h2>
-      <div class="grid-categorias">
-        <article class="categoria-card">Libros</article>
-        <article class="categoria-card">Tecnología</article>
-        <article class="categoria-card">Ropa</article>
-        <article class="categoria-card">Accesorios</article>
+      <h2>Categorías Populares</h2>
+
+      <div class="cat-grid">
+        <div class="cat-card">
+          <img src="img/abrigos.webp" alt="Abrigos">
+          <p>Abrigos</p>
+        </div>
+
+        <div class="cat-card">
+          <img src="img/camisetas.jpg" alt="Camisetas">
+          <p>Camisetas</p>
+        </div>
+
+        <div class="cat-card">
+          <img src="img/pantalones.webp" alt="Pantalones">
+          <p>Pantalones</p>
+        </div>
       </div>
     </section>
 
-    <section class="destacados">
-      <h2>Productos destacados</h2>
-      <div class="grid-productos">
-        <article class="producto-card">
-          <img src="img/auriculares.jpg" alt="Producto 1">
-          <h3>Auriculares Inalámbricos</h3>
-          <p>$50.000</p>
-          <button>Agregar al carrito</button>
+
+    <section class="novedades">
+      <h2>Novedades para ti</h2>
+
+      <div class="prod-grid">
+
+        <article class="prod-card">
+          <img src="img/chaquetacuero.webp" alt="Chaqueta de Cuero">
+          <h3>Chaqueta de Cuero</h3>
+          <p class="precio">$120.00</p>
         </article>
-        <article class="producto-card">
-          <img src="img/hoddie.webp" alt="Producto 2">
-          <h3>Hoddie Hombre</h3>
-          <p>$75.000</p>
-          <button>Agregar al carrito</button>
+
+        <article class="prod-card">
+          <img src="img/camisetag.webp" alt="Camiseta Gráfica">
+          <h3>Camiseta Gráfica</h3>
+          <p class="precio">$35.00</p>
         </article>
+
+        <article class="prod-card">
+          <img src="img/prod-jeans.png" alt="Jeans Clásicos">
+          <h3>Jeans Clásicos</h3>
+          <p class="precio">$75.00</p>
+        </article>
+
+        <article class="prod-card">
+          <img src="img/prod-zapatillas.png" alt="Zapatillas Retro">
+          <h3>Zapatillas Retro</h3>
+          <p class="precio">$90.00</p>
+        </article>
+
       </div>
     </section>
+
   </main>
 
   <footer>
-    <p>&copy; 2026 CampusShop </p>
+    <p>&copy; 2026 CampusShop</p>
   </footer>
+
 </body>
+
 </html>
