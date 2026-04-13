@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: var(--blanco);
+    border-bottom: 1px solid var(--gris-medio);
+  }
+  
+  .search-section {
+    padding: 1rem;
+  }
+  
+  .cat-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prod-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  

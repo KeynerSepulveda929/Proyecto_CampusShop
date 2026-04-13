@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    .cat-grid {
+      gap: 1rem;
+    }
+  
+    .prod-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .prod-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
