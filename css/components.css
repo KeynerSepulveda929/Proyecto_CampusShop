@@ -12,7 +12,7 @@
   
 .btn:hover{
     background: var(--violeta-oscuro);
-}
+  }
   
 .fav-btn{
     position: absolute;
@@ -27,7 +27,7 @@
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-  
+
 .prod-card{
     background: var(--blanco);
     border-radius: 14px;
@@ -39,8 +39,8 @@
   
 .prod-card img{
     width: 100%;
-    height: 200px; 
-    object-fit: cover; 
+    height: 200px;
+    object-fit: cover;
     border-radius: 12px;
 }
   
@@ -53,7 +53,6 @@
     font-weight: bold;
     color: var(--violeta-oscuro);
 }
-  
 
 .tag{
     position: absolute;
@@ -72,9 +71,9 @@
   
   .prod-card.stock .tag {
     background: #FFA500;
-}
+  }
   
-.cat-card{
+.cat-card {
     background: var(--blanco);
     border-radius: 14px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
@@ -106,16 +105,47 @@ label{
     display: block;
 }
   
-.avatar {
+.avatar{
     width: 100px;
     height: 100px;
-    border-radius: 50%;   
+    border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--violeta);
     margin: 0 auto;
     display: block;
 }
-
+  
+.btn-secundario{
+    background: var(--azul);
+    color: var(--blanco);
+    border-radius: 12px;
+    padding: 0.8rem;
+}
+  
+.btn-secundario:hover{
+    background: var(--violeta-oscuro);
+}
+  
+.nav-btn.active{
+    color: var(--azul-oscuro);
+    font-weight: bold;
+}
+  
+.estado.entregado{
+    background: var(--azul); 
+    color: var(--blanco);
+}
+  
+.estado.en-proceso{
+    background: var(--violeta); 
+    color: var(--blanco);
+}
+  
+.estado.cancelado{
+    background: #FF4A4A; 
+    color: var(--blanco);
+  }
+  
 .icon-btn img{
     width: 60px;
     height: 60px;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusShop - Checkout</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">Checkout</h1>
+  </header>
+
+  <main>
+    <section class="checkout-section">
+      <h2>Envío</h2>
+      <form>
+        <label for="nombre">Nombre Completo</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre completo">
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" placeholder="Ingresa tu dirección">
+
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" placeholder="Tu ciudad">
+      </form>
+    </section>
+
+    <section class="checkout-section">
+      <h2>Método de Pago</h2>
+      <div class="metodos-pago">
+        <button class="btn">Visa</button>
+        <button class="btn">MasterCard</button>
+        <button class="btn">Paypal</button>
+      </div>
+    </section>
+
+    <section class="checkout-section resumen">
+      <h2>Resumen de tu Orden</h2>
+      <div class="orden-item">
+        <p>Zapatillas de Fútbol</p>
+        <p>Cantidad: 1</p>
+        <p>$75.000</p>
+      </div>
+      <div class="orden-item">
+        <p>Chaqueta de Cuero</p>
+        <p>Cantidad: 1</p>
+        <p>$140.000</p>
+      </div>
+
+      <p class="total">Total: <span>$215.000</span></p>
+      <button class="btn pagar">Pagar $215.000</button>
+    </section>
+  </main>
+
+</body>
+</html>
