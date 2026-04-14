@@ -1,16 +1,43 @@
 @media (min-width: 768px) {
-    .cat-grid {
-      gap: 1rem;
-    }
-  
-    .prod-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
+  .header {
+    padding: 1.2rem 2rem;
   }
-  
-  @media (min-width: 1024px) {
-    .prod-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
+
+  .cat-grid {
+    gap: 1rem;
   }
-  
+
+  .prod-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  input, select {
+    max-width: 80%; 
+    margin: 0 auto 1rem auto;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .header h1.logo {
+    font-size: 1.6rem;
+  }
+
+  .prod-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .cat-grid {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .prod-card img {
+    height: 250px;
+  }
+}
