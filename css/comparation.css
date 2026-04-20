@@ -1,0 +1,52 @@
+.prod-card.Disponible .tag{
+    background: green;
+}
+  
+.prod-card.No-Disponible .tag{
+    background: red;
+}
+
+.prod-img{
+    width: 200px;
+    height: 250px;
+}
+
+.btn{
+    background: var(--violeta);
+    color: var(--blanco);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+:root {
+    --violeta: #7A4FFF;
+    --violeta-oscuro: #5A2ECC;   
+    --azul: #4A90E2;             
+    --azul-oscuro: #2C5AA0;      
+    --blanco: #FFFFFF;
+    --gris-medio: #DDDDDD;
+    --gris-texto: #555555;
+    --verde: #2ECC71;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.prod-img{
+    background: var(--blanco);
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 0.8rem;
+    position: relative;
+    text-align: center;
+}
+
+.prod-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
